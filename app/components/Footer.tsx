@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Thrift Digest</h3>
             <p style={{ color: '#9CA3AF' }}>
-              Your AI agent for unbiased benefits education.
+              Your AI agent for smarter savings and better spending.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-4">

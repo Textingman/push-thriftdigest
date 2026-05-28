@@ -47,10 +47,10 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#1F2937' }}>
-              Talk to Your AI Benefits Advisor — Free
+              Talk to Your AI Savings Advisor — Free
             </h1>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#6B7280' }}>
-              Tell us about your situation and our AI agent will deliver personalized, unbiased benefits education — no sales calls, no pressure, just honest answers.
+              Tell us about your situation and our AI agent will deliver personalized, unbiased savings guidance — no sales calls, no pressure, just honest answers.
             </p>
           </div>
         </div>
@@ -81,9 +81,9 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your Thrift Digest</h2>
+                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your Thrift Digest AI</h2>
                 <p style={{ color: '#6B7280' }}>
-                  Fill out this form and our AI agent will provide you with unbiased, personalized benefits education — completely free. No salespeople will contact you.
+                  Fill out this form and our AI agent will provide you with unbiased, personalized savings guidance — completely free. No salespeople will contact you.
                 </p>
               </div>
 
@@ -182,7 +182,7 @@ export default function SignupPage() {
                 {/* Message Field */}
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-2" style={{ color: '#1F2937' }}>
-                    Tell Us About Your Benefits Questions (Optional)
+                    Tell Us About Your Savings Goals (Optional)
                   </label>
                   <textarea
                     id="message"
@@ -192,7 +192,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="block w-full px-3 py-3 rounded-lg text-gray-900"
                     style={{ border: '1px solid #E5E7EB' }}
-                    placeholder="Tell us about your benefits situation, coverage needs, or any questions you have..."
+                    placeholder="Tell us about your savings goals, budget challenges, or any questions you have about saving money..."
                   />
                 </div>
 

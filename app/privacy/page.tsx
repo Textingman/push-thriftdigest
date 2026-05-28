@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>1. Introduction</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            Thrift Digest ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered benefits education service and website at thriftdigest.com. By using our service, you agree to the collection and use of information in accordance with this policy.
+            Thrift Digest ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered savings guidance service and website at thriftdigest.com. By using our service, you agree to the collection and use of information in accordance with this policy.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>2. Information We Collect</h2>
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li>Full name and contact information (email address, phone number)</li>
             <li>Location information (city/state)</li>
-            <li>Benefits-related questions and information you share with our AI agent</li>
+            <li>Savings goals and questions you share with our AI agent</li>
             <li>SMS opt-in consent preferences (account notifications and/or customer care)</li>
           </ul>
 
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>2.3 Phone Number Handling</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            <strong>Important:</strong> We do NOT store phone numbers used in the verification process beyond what is necessary to provide our service. Phone numbers are only displayed (masked) during the verification flow and are not logged or retained in our systems beyond service delivery. All tracking parameters are passed through without storing personally identifiable information unnecessarily.
+            <strong>Important:</strong> We do NOT store phone numbers used in the verification process beyond what is necessary to provide our service. Phone numbers are only displayed (masked) during the verification flow and are not logged or retained in our systems beyond service delivery.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>2.4 Mobile Information and SMS Consent</h3>
@@ -57,8 +57,8 @@ export default function PrivacyPage() {
             <strong>No mobile information will be shared or sold to third parties for marketing/promotional purposes.</strong> When you opt in to receive SMS messages from Thrift Digest, we collect and store your consent preferences separately for:
           </p>
           <ul className="list-disc pl-6 mb-4 space-y-2" style={{ color: '#6B7280' }}>
-            <li><strong>Transactional Account Notifications:</strong> Messages related to your account activity, service updates, and important notices about your benefits education experience.</li>
-            <li><strong>Customer Care:</strong> Messages to assist you with questions, support requests, and follow-up related to your benefits inquiries.</li>
+            <li><strong>Transactional Account Notifications:</strong> Messages related to your account activity, service updates, and important notices about your savings guidance experience.</li>
+            <li><strong>Customer Care:</strong> Messages to assist you with questions, support requests, and follow-up related to your savings inquiries.</li>
           </ul>
           <p className="mb-6" style={{ color: '#6B7280' }}>
             Each SMS program requires separate opt-in consent. Opting in to either or both programs is entirely optional and is not required to use our service or submit our form. You may opt out at any time by replying <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or email <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@thriftdigest.com</a>. Message and data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages.
@@ -67,8 +67,8 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>3. How We Use Your Information</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>We use the information we collect to:</p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li>Provide and maintain our AI-powered benefits education service</li>
-            <li>Deliver personalized, unbiased benefits guidance through our AI agent</li>
+            <li>Provide and maintain our AI-powered savings guidance service</li>
+            <li>Deliver personalized, unbiased savings advice through our AI agent</li>
             <li>Send transactional account notification SMS messages (if opted in)</li>
             <li>Send customer care SMS messages to assist with your inquiries (if opted in)</li>
             <li>Respond to your questions and support requests</li>
@@ -106,8 +106,8 @@ export default function PrivacyPage() {
             Thrift Digest operates two separate SMS messaging programs. By opting in to either program on our signup form, you agree to the following terms:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li><strong>Program 1 — Transactional Account Notifications:</strong> Receive SMS messages about your account status, service updates, and important benefits-related notices.</li>
-            <li><strong>Program 2 — Customer Care:</strong> Receive SMS messages from our team to assist with your benefits questions and support needs.</li>
+            <li><strong>Program 1 — Transactional Account Notifications:</strong> Receive SMS messages about your account status, service updates, and important savings-related notices.</li>
+            <li><strong>Program 2 — Customer Care:</strong> Receive SMS messages from our team to assist with your savings questions and support needs.</li>
             <li>Both programs are optional. You may opt in to one, both, or neither.</li>
             <li>To opt out of any program, reply <strong>STOP</strong> to any message from that program.</li>
             <li>To get help, reply <strong>HELP</strong> or contact <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@thriftdigest.com</a>.</li>
@@ -117,18 +117,12 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>6. Data Security</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure, or destruction. These measures include:
+            We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure, or destruction.
           </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li>Encryption of data in transit (HTTPS/TLS)</li>
-            <li>Secure hosting infrastructure with regular security audits</li>
-            <li>Access controls and authentication mechanisms</li>
-            <li>Regular security assessments and updates</li>
-          </ul>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>7. Data Retention</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. SMS consent records are retained for as long as required to demonstrate compliance with applicable regulations.
+            We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>8. Your Rights and Choices</h2>
@@ -147,30 +141,25 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>9. Cookies and Tracking Technologies</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            We use cookies and similar tracking technologies to track activity on our service and improve your experience. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. Note that some features of our service may not function properly without cookies.
+            We use cookies and similar tracking technologies to track activity on our service and improve your experience. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>10. Third-Party Links</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>10. Children's Privacy</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            Our service may contain links to third-party websites. We are not responsible for the privacy practices of these external sites and encourage you to review their privacy policies.
+            Our service is not intended for individuals under the age of 18. We do not knowingly collect personal information from children.
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>11. Children's Privacy</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>11. California Privacy Rights (CCPA)</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            Our service is not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a minor, please contact us immediately.
+            If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA). <strong>We do not sell personal information.</strong> To exercise your CCPA rights, contact us at <a href="mailto:privacy@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@thriftdigest.com</a>.
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>12. California Privacy Rights (CCPA)</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>12. Changes to This Privacy Policy</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete your personal information, and the right to opt out of the sale of personal information. <strong>We do not sell personal information.</strong> To exercise your CCPA rights, contact us at <a href="mailto:privacy@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@thriftdigest.com</a>.
+            We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>13. Changes to This Privacy Policy</h2>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. Your continued use of the service after changes become effective constitutes your acceptance of the updated policy.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>14. Contact Us</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>13. Contact Us</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>

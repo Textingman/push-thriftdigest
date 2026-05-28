@@ -18,10 +18,10 @@ export default function AboutPage() {
               AI-Powered — 100% Independent
             </div>
             <h1 className="text-5xl font-extrabold mb-6" style={{ color: '#1F2937' }}>
-              An AI Agent Built to Educate,<br />Not to Sell
+              An AI Agent Built to Help You Save,<br />Not to Sell You Anything
             </h1>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280' }}>
-              Thrift Digest is an AI-powered platform that guides individuals through the benefits decision process with honest, unbiased education. We're not a benefits broker. We're your independent advisor.
+              Thrift Digest is an AI-powered platform that guides individuals toward smarter spending and bigger savings with honest, unbiased advice. We're not a financial product seller. We're your independent savings advisor.
             </p>
           </div>
         </div>
@@ -33,13 +33,13 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Why We Built This</h2>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              The benefits industry is full of brokers and salespeople, but short on educators. Individuals are bombarded with confusing plan options, high-pressure tactics, and conflicting information — and most don't know who to trust.
+              The personal finance world is full of products trying to sell you something — credit cards, investment accounts, subscription services. But most people just want simple, honest answers about how to save more money.
             </p>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              We built an AI agent that acts as your personal benefits advisor — one that has no financial incentive to push you toward any particular plan or provider. It simply helps you understand your options and make the best decision for your situation.
+              We built an AI agent that acts as your personal savings advisor — one that has no financial incentive to push you toward any particular product or service. It simply helps you understand your options and make the best decisions for your wallet.
             </p>
             <p className="text-lg" style={{ color: '#6B7280' }}>
-              Think of it as having a knowledgeable friend who happens to know everything about benefits — available 24/7, completely free, and always on your side.
+              Think of it as having a knowledgeable friend who happens to know everything about saving money — available 24/7, completely free, and always on your side.
             </p>
           </div>
           <div className="rounded-2xl p-8 border" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5E7EB' }}>
@@ -51,7 +51,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>AI-Powered, Always Available</h3>
                   <p style={{ color: '#6B7280' }}>
-                    Our AI agent is available 24/7 to answer your benefits questions instantly — no waiting, no appointments.
+                    Our AI agent is available 24/7 to answer your savings questions instantly — no waiting, no appointments.
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Zero Conflicts of Interest</h3>
                   <p style={{ color: '#6B7280' }}>
-                    We receive no commissions or referral fees from benefits providers. Our AI's only job is to help you.
+                    We receive no commissions or referral fees from financial products. Our AI's only job is to help you save more.
                   </p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Education First</h3>
                   <p style={{ color: '#6B7280' }}>
-                    We believe informed individuals make better decisions. Our AI educates before you ever talk to a broker.
+                    We believe informed people make better financial decisions. Our AI educates you so you can save smarter.
                   </p>
                 </div>
               </div>
@@ -88,68 +88,68 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" style={{ color: '#1F2937' }}>What Our AI Agent Covers</h2>
             <p className="text-xl" style={{ color: '#6B7280' }}>
-              Comprehensive benefits education tailored to your situation
+              Comprehensive savings guidance tailored to your situation
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DBEAFE' }}>
-                <span className="text-xl">🔍</span>
+                <span className="text-xl">🛒</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Unclaimed Benefits</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Grocery Savings</h3>
               <p style={{ color: '#6B7280' }}>
-                Discover government programs, employer benefits, and state assistance you may be entitled to but haven't claimed yet.
+                Discover cashback apps, coupon stacking strategies, store brand swaps, and meal planning tips to slash your grocery bill.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#dcfce7' }}>
-                <span className="text-xl">🛒</span>
+                <span className="text-xl">💳</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Grocery Benefits</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Cashback & Rewards</h3>
               <p style={{ color: '#6B7280' }}>
-                Learn about SNAP, WIC, and other food assistance programs that can help cover your grocery costs.
+                Learn how to stack cashback credit cards, portals like Rakuten, and apps like Ibotta to earn money back on every purchase.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DBEAFE' }}>
-                <span className="text-xl">🏆</span>
+                <span className="text-xl">📊</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Grants</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Budgeting</h3>
               <p style={{ color: '#6B7280' }}>
-                Explore federal, state, and local grants for housing, education, healthcare, small business, and more.
+                Get help setting up a budget that actually works — zero-based, 50/30/20, or a custom approach that fits your lifestyle.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#FEF3C7' }}>
-                <span className="text-xl">👴</span>
+                <span className="text-xl">🏦</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Senior Benefits</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Emergency Fund</h3>
               <p style={{ color: '#6B7280' }}>
-                Medicare, Social Security, Medicaid, utility assistance, property tax relief, and other programs for seniors.
+                Learn how to build your emergency fund faster with automation, high-yield savings accounts, and smart contribution strategies.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#dcfce7' }}>
-                <span className="text-xl">💵</span>
+                <span className="text-xl">🏷️</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Financial Benefits</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Discount Programs</h3>
               <p style={{ color: '#6B7280' }}>
-                Utility bill assistance (LIHEAP), housing aid, Social Security Disability, and other financial assistance programs.
+                Uncover discount programs you may be missing — AAA, AARP, employer portals, student discounts, military benefits, and more.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border bg-white" style={{ borderColor: '#E5E7EB' }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DBEAFE' }}>
-                <span className="text-xl">🛡️</span>
+                <span className="text-xl">💡</span>
               </div>
               <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>And Much More</h3>
               <p style={{ color: '#6B7280' }}>
-                Health insurance, dental, vision, disability, retirement plans, and any other benefits questions you have.
+                Utility savings, subscription audits, negotiating bills, frugal living tips, and any other savings questions you have.
               </p>
             </div>
           </div>
@@ -161,10 +161,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Bot className="w-16 h-16 text-white mx-auto mb-6" />
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Talk to Your AI Benefits Advisor?
+            Ready to Talk to Your AI Savings Advisor?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.9)' }}>
-            Get instant, unbiased answers to all your benefits questions — completely free, with zero sales pressure.
+            Get instant, unbiased answers to all your savings questions — completely free, with zero sales pressure.
           </p>
           <Link
             href="/signup"

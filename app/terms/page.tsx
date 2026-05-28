@@ -24,17 +24,17 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>1. Acceptance of Terms</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            By accessing or using Thrift Digest's AI-powered benefits education service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service.
+            By accessing or using Thrift Digest's AI-powered savings guidance service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>2. Description of Service</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            Thrift Digest provides an AI-powered benefits education platform that helps individuals understand their benefits options through personalized, unbiased guidance. The Service includes:
+            Thrift Digest provides an AI-powered savings guidance platform that helps individuals save more money through personalized, unbiased advice. The Service includes:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li>AI-powered benefits education and guidance</li>
-            <li>Personalized answers to benefits questions</li>
-            <li>Enrollment guidance and eligibility information</li>
+            <li>AI-powered savings education and guidance</li>
+            <li>Personalized answers to savings and budgeting questions</li>
+            <li>Discount program discovery and cashback strategy guidance</li>
             <li>Optional SMS notifications (account notifications and customer care)</li>
             <li>Phone number verification flow</li>
           </ul>
@@ -48,12 +48,12 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>3.2 Account Security</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            You agree to immediately notify us of any unauthorized use of your account or any other breach of security. We will not be liable for any loss or damage arising from your failure to comply with these security obligations.
+            You agree to immediately notify us of any unauthorized use of your account or any other breach of security.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>3.3 Account Eligibility</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            You must be at least 18 years old and have the legal capacity to enter into contracts to use the Service. By using the Service, you represent and warrant that you meet these requirements.
+            You must be at least 18 years old and have the legal capacity to enter into contracts to use the Service.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>4. Acceptable Use Policy</h2>
@@ -86,43 +86,16 @@ export default function TermsPage() {
             Message and data rates may apply. Message frequency varies based on your account activity and the program you have opted into. Carriers are not liable for delayed or undelivered messages. No mobile information will be shared with or sold to third parties for marketing or promotional purposes.
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>5.4 Content Restrictions</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            All SMS messages sent through our Service will comply with applicable laws and carrier guidelines. We do not send messages containing prohibited content, including illegal content, adult content, gambling, cannabis, firearms, or any content that violates applicable regulations.
-          </p>
-
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>6. Service Availability and Support</h2>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.1 Uptime</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            We strive to maintain high availability for the Service, but we do not guarantee uninterrupted access. We may perform scheduled maintenance with advance notice when possible.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.2 Support</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.1 Support</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
             We provide email support at <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@thriftdigest.com</a>. Response times may vary based on the nature of your inquiry.
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.3 Service Modifications</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time with reasonable notice. We will not be liable for any modification, suspension, or discontinuation of the Service.
-          </p>
-
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>7. Intellectual Property Rights</h2>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>7.1 Our Rights</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
             The Service and all content, features, and functionality are owned by Thrift Digest and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>7.2 Your Content</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            You retain ownership of any content you submit through the Service. By submitting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, and display such content solely for the purpose of providing the Service.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>7.3 Feedback</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            If you provide us with feedback or suggestions about the Service, we may use such feedback without any obligation to you.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>8. Data and Privacy</h2>
@@ -132,99 +105,27 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>9. Disclaimers and Limitations of Liability</h2>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>9.1 Not Financial or Insurance Advice</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>9.1 Not Financial Advice</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            The information provided by our AI agent is for educational purposes only and does not constitute financial, insurance, or legal advice. Always consult a licensed professional before making benefits or insurance decisions.
+            The information provided by our AI agent is for educational purposes only and does not constitute financial, investment, or legal advice. Always consult a licensed professional before making significant financial decisions.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>9.2 Service "As Is"</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>9.3 Limitation of Liability</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            TO THE MAXIMUM EXTENT PERMITTED BY LAW, AI BENEFITS AGENT SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
+            THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>10. Indemnification</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            You agree to indemnify, defend, and hold harmless Thrift Digest and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
-          </p>
-          <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li>Your use of the Service</li>
-            <li>Your violation of these Terms</li>
-            <li>Your violation of any rights of another party</li>
-            <li>Your violation of applicable laws or regulations</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>11. Termination</h2>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>11.1 Termination by You</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            You may terminate your account at any time by contacting us. Upon termination, your right to use the Service will immediately cease.
+            You agree to indemnify, defend, and hold harmless Thrift Digest and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from your use of the Service or violation of these Terms.
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>11.2 Termination by Us</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            We may suspend or terminate your access to the Service at any time, with or without cause, with or without notice. Reasons for termination may include violation of these Terms or any conduct that we believe is harmful to other users or the Service.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>11.3 Effect of Termination</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            Upon termination, all licenses and rights granted to you will immediately cease. Provisions that by their nature should survive termination shall survive, including ownership provisions, warranty disclaimers, and limitations of liability.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>12. Dispute Resolution</h2>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>12.1 Informal Resolution</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            Before filing a claim, you agree to contact us and attempt to resolve the dispute informally by sending a written notice describing the dispute and your proposed resolution.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>12.2 Arbitration</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            If we cannot resolve the dispute informally, any dispute arising from these Terms or the Service shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>12.3 Class Action Waiver</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            You agree that any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated, or representative action.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>13. General Provisions</h2>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.1 Governing Law</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            These Terms shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.2 Entire Agreement</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Thrift Digest regarding the Service and supersede all prior agreements.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.3 Severability</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full force and effect.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.4 Waiver</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.
-          </p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.5 Assignment</h3>
-          <p className="mb-6" style={{ color: '#6B7280' }}>
-            You may not assign or transfer these Terms or your rights under these Terms without our prior written consent. We may assign these Terms without restriction.
-          </p>
-
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>14. Changes to Terms</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>11. Changes to Terms</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
             We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the updated Terms on our website and updating the "Last Updated" date. Your continued use of the Service after changes become effective constitutes acceptance of the modified Terms.
           </p>
 
-          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>15. Contact Information</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>12. Contact Information</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>
             If you have any questions about these Terms, please contact us:
           </p>
