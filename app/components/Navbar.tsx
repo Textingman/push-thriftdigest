@@ -7,7 +7,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const linkColor = (href: string) =>
-    pathname === href ? '#1F4E79' : '#6B7280';
+    pathname === href ? '#166534' : '#6B7280';
 
   return (
     <nav className="bg-white shadow-sm">
@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-32">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold" style={{ color: '#1F4E79' }}>Thrift Digest</span>
+              <span className="text-2xl font-bold" style={{ color: '#166534' }}>Thrift Digest</span>
             </Link>
           </div>
           <div className="hidden md:block">
@@ -32,7 +32,7 @@ export default function Navbar() {
               <Link href="/terms" style={{ color: linkColor('/terms') }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                 Terms
               </Link>
-              <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#5E8F5E' }}>
+              <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#166534' }}>
                 Talk to Our AI
               </Link>
             </div>
