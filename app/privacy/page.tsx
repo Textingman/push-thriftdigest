@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>1. Introduction</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            AI Benefits Agent ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered benefits education service and website at aibenefitsagent.com. By using our service, you agree to the collection and use of information in accordance with this policy.
+            Thrift Digest ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered benefits education service and website at thriftdigest.com. By using our service, you agree to the collection and use of information in accordance with this policy.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>2. Information We Collect</h2>
@@ -54,14 +54,14 @@ export default function PrivacyPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>2.4 Mobile Information and SMS Consent</h3>
           <p className="mb-4" style={{ color: '#6B7280' }}>
-            <strong>No mobile information will be shared or sold to third parties for marketing/promotional purposes.</strong> When you opt in to receive SMS messages from AI Benefits Agent, we collect and store your consent preferences separately for:
+            <strong>No mobile information will be shared or sold to third parties for marketing/promotional purposes.</strong> When you opt in to receive SMS messages from Thrift Digest, we collect and store your consent preferences separately for:
           </p>
           <ul className="list-disc pl-6 mb-4 space-y-2" style={{ color: '#6B7280' }}>
             <li><strong>Transactional Account Notifications:</strong> Messages related to your account activity, service updates, and important notices about your benefits education experience.</li>
             <li><strong>Customer Care:</strong> Messages to assist you with questions, support requests, and follow-up related to your benefits inquiries.</li>
           </ul>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            Each SMS program requires separate opt-in consent. Opting in to either or both programs is entirely optional and is not required to use our service or submit our form. You may opt out at any time by replying <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or email <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@aibenefitsagent.com</a>. Message and data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages.
+            Each SMS program requires separate opt-in consent. Opting in to either or both programs is entirely optional and is not required to use our service or submit our form. You may opt out at any time by replying <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or email <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@thriftdigest.com</a>. Message and data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>3. How We Use Your Information</h2>
@@ -103,14 +103,14 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>5. SMS Messaging Program Details</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>
-            AI Benefits Agent operates two separate SMS messaging programs. By opting in to either program on our signup form, you agree to the following terms:
+            Thrift Digest operates two separate SMS messaging programs. By opting in to either program on our signup form, you agree to the following terms:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li><strong>Program 1 — Transactional Account Notifications:</strong> Receive SMS messages about your account status, service updates, and important benefits-related notices.</li>
             <li><strong>Program 2 — Customer Care:</strong> Receive SMS messages from our team to assist with your benefits questions and support needs.</li>
             <li>Both programs are optional. You may opt in to one, both, or neither.</li>
             <li>To opt out of any program, reply <strong>STOP</strong> to any message from that program.</li>
-            <li>To get help, reply <strong>HELP</strong> or contact <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@aibenefitsagent.com</a>.</li>
+            <li>To get help, reply <strong>HELP</strong> or contact <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@thriftdigest.com</a>.</li>
             <li>Message and data rates may apply. Message frequency varies by program and user activity.</li>
             <li>Carriers are not liable for delayed or undelivered messages.</li>
           </ul>
@@ -142,7 +142,7 @@ export default function PrivacyPage() {
             <li><strong>SMS Opt-Out:</strong> Reply STOP to any SMS message to opt out of that messaging program at any time</li>
           </ul>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            To exercise these rights, please contact us at <a href="mailto:privacy@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@aibenefitsagent.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@thriftdigest.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>9. Cookies and Tracking Technologies</h2>
@@ -162,7 +162,7 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>12. California Privacy Rights (CCPA)</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete your personal information, and the right to opt out of the sale of personal information. <strong>We do not sell personal information.</strong> To exercise your CCPA rights, contact us at <a href="mailto:privacy@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@aibenefitsagent.com</a>.
+            If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete your personal information, and the right to opt out of the sale of personal information. <strong>We do not sell personal information.</strong> To exercise your CCPA rights, contact us at <a href="mailto:privacy@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@thriftdigest.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>13. Changes to This Privacy Policy</h2>
@@ -175,9 +175,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="rounded-lg p-6 mb-8" style={{ backgroundColor: '#F5F7FA', border: '1px solid #E5E7EB' }}>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Privacy Inquiries:</strong> <a href="mailto:privacy@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@aibenefitsagent.com</a></p>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>General Support:</strong> <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@aibenefitsagent.com</a></p>
-            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2F8FCB' }}>https://aibenefitsagent.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Privacy Inquiries:</strong> <a href="mailto:privacy@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@thriftdigest.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>General Support:</strong> <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@thriftdigest.com</a></p>
+            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2F8FCB' }}>https://thriftdigest.com</a></p>
           </div>
 
         </div>

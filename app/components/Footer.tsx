@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">AI Benefits Agent</h3>
+            <h3 className="text-xl font-bold mb-4">Thrift Digest</h3>
             <p style={{ color: '#9CA3AF' }}>
               Your AI agent for unbiased benefits education.
             </p>
@@ -71,7 +71,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <p style={{ color: '#9CA3AF' }}>
-              support@aibenefitsagent.com
+              support@thriftdigest.com
             </p>
             <p className="mt-2" style={{ color: '#9CA3AF' }}>
               United States
@@ -79,7 +79,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #374151', color: '#9CA3AF' }}>
-          <p>&copy; 2026 AI Benefits Agent. All rights reserved.</p>
+          <p>&copy; 2026 Thrift Digest. All rights reserved.</p>
         </div>
       </div>
     </footer>

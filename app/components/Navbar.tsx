@@ -18,7 +18,7 @@ export default function Navbar() {
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="/new-logo.png"
-                alt="AI Benefits Agent"
+                alt="Thrift Digest"
                 width={400}
                 height={220}
                 className="h-20 w-auto"

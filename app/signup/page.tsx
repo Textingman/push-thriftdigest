@@ -81,7 +81,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your AI Benefits Agent</h2>
+                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your Thrift Digest</h2>
                 <p style={{ color: '#6B7280' }}>
                   Fill out this form and our AI agent will provide you with unbiased, personalized benefits education — completely free. No salespeople will contact you.
                 </p>
@@ -210,7 +210,7 @@ export default function SignupPage() {
                         style={{ accentColor: '#F59E0B' }}
                       />
                       <label htmlFor="sms-account-notifications" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive transactional account notification text messages from AI Benefits Agent. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@aibenefitsagent.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by AI Benefits Agent.
+                        By checking this box and submitting this form, you agree to receive transactional account notification text messages from Thrift Digest. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@thriftdigest.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Thrift Digest.
                       </label>
                     </div>
                   </div>
@@ -227,7 +227,7 @@ export default function SignupPage() {
                         style={{ accentColor: '#F59E0B' }}
                       />
                       <label htmlFor="sms-customer-care" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive <strong>customer care</strong> text messages from AI Benefits Agent. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@aibenefitsagent.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by AI Benefits Agent.
+                        By checking this box and submitting this form, you agree to receive <strong>customer care</strong> text messages from Thrift Digest. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@thriftdigest.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Thrift Digest.
                       </label>
                     </div>
                   </div>

@@ -40,7 +40,7 @@ function VerifyPageContent() {
         <div className="flex justify-center mb-6">
           <Image
             src="/new-logo.png"
-            alt="AI Benefits Agent"
+            alt="Thrift Digest"
             width={254}
             height={140}
             className="h-9 w-auto"

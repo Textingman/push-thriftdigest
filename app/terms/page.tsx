@@ -24,12 +24,12 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>1. Acceptance of Terms</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            By accessing or using AI Benefits Agent's AI-powered benefits education service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service.
+            By accessing or using Thrift Digest's AI-powered benefits education service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>2. Description of Service</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            AI Benefits Agent provides an AI-powered benefits education platform that helps individuals understand their benefits options through personalized, unbiased guidance. The Service includes:
+            Thrift Digest provides an AI-powered benefits education platform that helps individuals understand their benefits options through personalized, unbiased guidance. The Service includes:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li>AI-powered benefits education and guidance</li>
@@ -73,12 +73,12 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>5.1 SMS Opt-In</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            AI Benefits Agent offers two optional SMS messaging programs: transactional account notifications and customer care messages. Opting in to either program is entirely voluntary and is not required to use the Service or submit our form. By checking the applicable opt-in checkbox on our signup form, you provide explicit consent to receive SMS messages from that program.
+            Thrift Digest offers two optional SMS messaging programs: transactional account notifications and customer care messages. Opting in to either program is entirely voluntary and is not required to use the Service or submit our form. By checking the applicable opt-in checkbox on our signup form, you provide explicit consent to receive SMS messages from that program.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>5.2 Opt-Out</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            You may opt out of any SMS program at any time by replying <strong>STOP</strong> to any message from that program. Your opt-out request will be honored promptly. For help, reply <strong>HELP</strong> or contact <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@aibenefitsagent.com</a>.
+            You may opt out of any SMS program at any time by replying <strong>STOP</strong> to any message from that program. Your opt-out request will be honored promptly. For help, reply <strong>HELP</strong> or contact <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@thriftdigest.com</a>.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>5.3 Message Rates and Frequency</h3>
@@ -100,7 +100,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.2 Support</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            We provide email support at <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@aibenefitsagent.com</a>. Response times may vary based on the nature of your inquiry.
+            We provide email support at <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@thriftdigest.com</a>. Response times may vary based on the nature of your inquiry.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>6.3 Service Modifications</h3>
@@ -112,7 +112,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>7.1 Our Rights</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            The Service and all content, features, and functionality are owned by AI Benefits Agent and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+            The Service and all content, features, and functionality are owned by Thrift Digest and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>7.2 Your Content</h3>
@@ -149,7 +149,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>10. Indemnification</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            You agree to indemnify, defend, and hold harmless AI Benefits Agent and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
+            You agree to indemnify, defend, and hold harmless Thrift Digest and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
           </p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li>Your use of the Service</li>
@@ -201,7 +201,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.2 Entire Agreement</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and AI Benefits Agent regarding the Service and supersede all prior agreements.
+            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Thrift Digest regarding the Service and supersede all prior agreements.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>13.3 Severability</h3>
@@ -229,9 +229,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="rounded-lg p-6 mb-8" style={{ backgroundColor: '#F5F7FA', border: '1px solid #E5E7EB' }}>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Legal:</strong> <a href="mailto:legal@aibenefitsagent.com" className="font-medium" style={{ color: '#2F6FA3' }}>legal@aibenefitsagent.com</a></p>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Support:</strong> <a href="mailto:support@aibenefitsagent.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@aibenefitsagent.com</a></p>
-            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2F6FA3' }}>https://aibenefitsagent.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Legal:</strong> <a href="mailto:legal@thriftdigest.com" className="font-medium" style={{ color: '#2F6FA3' }}>legal@thriftdigest.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Support:</strong> <a href="mailto:support@thriftdigest.com" className="font-medium" style={{ color: '#2F6FA3' }}>support@thriftdigest.com</a></p>
+            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2F6FA3' }}>https://thriftdigest.com</a></p>
           </div>
 
         </div>

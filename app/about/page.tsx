@@ -21,7 +21,7 @@ export default function AboutPage() {
               An AI Agent Built to Educate,<br />Not to Sell
             </h1>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280' }}>
-              AI Benefits Agent is an AI-powered platform that guides individuals through the benefits decision process with honest, unbiased education. We're not a benefits broker. We're your independent advisor.
+              Thrift Digest is an AI-powered platform that guides individuals through the benefits decision process with honest, unbiased education. We're not a benefits broker. We're your independent advisor.
             </p>
           </div>
         </div>

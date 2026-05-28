@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Benefits Agent - Your AI Agent for Benefits Education",
+  title: "Thrift Digest - Your AI Agent for Benefits Education",
   description: "Meet your personal AI benefits advisor. Get instant, unbiased answers to all your benefits questions — coverage, costs, enrollment, and more. No salespeople. No pressure.",
 };
 
