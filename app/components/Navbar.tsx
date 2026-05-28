@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
@@ -16,13 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-32">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <Image
-                src="/new-logo.png"
-                alt="Thrift Digest"
-                width={400}
-                height={220}
-                className="h-20 w-auto"
-              />
+              <span className="text-2xl font-bold" style={{ color: '#1F4E79' }}>Thrift Digest</span>
             </Link>
           </div>
           <div className="hidden md:block">
