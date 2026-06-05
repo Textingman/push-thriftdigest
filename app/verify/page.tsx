@@ -21,12 +21,18 @@ function VerifyPageContent() {
 
     const params = new URLSearchParams();
     searchParams.forEach((value, key) => {
-      if (key !== 'phone') params.append(key, value);
+      if (key !== 'phone' && key !== 'destination') params.append(key, value);
     });
 
     const destination = searchParams.get('destination');
     if (destination) {
-      window.location.href = `${destination}?${params.toString()}`;
+      // Use '&' if destination already has a query string, otherwise '?'
+      const separator = destination.includes('?') ? '&' : '?';
+      const paramsString = params.toString();
+      const finalUrl = paramsString
+        ? `${destination}${separator}${paramsString}`
+        : destination;
+      window.location.href = finalUrl;
     } else {
       setError('Invalid verification link. Destination is missing.');
       setIsRedirecting(false);
