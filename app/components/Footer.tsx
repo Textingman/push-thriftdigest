@@ -74,7 +74,10 @@ export default function Footer() {
               support@thriftdigest.com
             </p>
             <p className="mt-2" style={{ color: '#BBF7D0' }}>
-              United States
+              8 The Green, Ste A, Dover, DE 19901
+            </p>
+            <p className="mt-2" style={{ color: '#BBF7D0' }}>
+              (512) 998-5886
             </p>
           </div>
         </div>
