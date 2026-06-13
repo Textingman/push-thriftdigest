@@ -1,7 +1,27 @@
+'use client';
+
+import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
+  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setTimeout(() => {
+      setSubmitting(false);
+      setSubmitted(true);
+    }, 1200);
+  };
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FFFFFF' }}>
       <Navbar />
@@ -17,82 +37,149 @@ export default function ContactPage() {
       </section>
 
       {/* Content */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-          {/* Contact Info */}
+          {/* Contact Form */}
           <div>
-            <h2 className="text-2xl font-bold mb-6" style={{ color: '#1F2937' }}>Get in Touch</h2>
+            <h2 className="text-2xl font-bold mb-6" style={{ color: '#1F2937' }}>Send Us a Message</h2>
 
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Email</h3>
-                <a
-                  href="mailto:support@thriftdigest.com"
-                  className="text-base hover:underline"
-                  style={{ color: '#166534' }}
+            {submitted ? (
+              <div className="rounded-xl p-8 text-center" style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0' }}>
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DCFCE7' }}>
+                  <svg className="w-8 h-8" style={{ color: '#16A34A' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2" style={{ color: '#1F2937' }}>Message Sent!</h3>
+                <p style={{ color: '#6B7280' }}>Thank you for reaching out. We'll get back to you within 1–2 business days.</p>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit} className="space-y-5">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium mb-1" style={{ color: '#1F2937' }}>Full Name *</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder="Jane Smith"
+                    className="block w-full px-4 py-3 rounded-lg text-gray-900"
+                    style={{ border: '1px solid #E5E7EB' }}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium mb-1" style={{ color: '#1F2937' }}>Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="jane@example.com"
+                    className="block w-full px-4 py-3 rounded-lg text-gray-900"
+                    style={{ border: '1px solid #E5E7EB' }}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-medium mb-1" style={{ color: '#1F2937' }}>Subject *</label>
+                  <select
+                    id="subject"
+                    name="subject"
+                    required
+                    value={formData.subject}
+                    onChange={handleChange}
+                    className="block w-full px-4 py-3 rounded-lg text-gray-900"
+                    style={{ border: '1px solid #E5E7EB' }}
+                  >
+                    <option value="">Select a topic...</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="sms-optout">SMS Opt-Out Request</option>
+                    <option value="sms-help">SMS Help</option>
+                    <option value="privacy">Privacy / Data Request</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium mb-1" style={{ color: '#1F2937' }}>Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows={5}
+                    value={formData.message}
+                    onChange={handleChange}
+                    placeholder="How can we help you?"
+                    className="block w-full px-4 py-3 rounded-lg text-gray-900"
+                    style={{ border: '1px solid #E5E7EB' }}
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="w-full py-3 px-6 rounded-lg text-white font-semibold transition-opacity"
+                  style={{ backgroundColor: submitting ? '#9CA3AF' : '#166534', cursor: submitting ? 'not-allowed' : 'pointer' }}
                 >
-                  support@thriftdigest.com
-                </a>
-                <p className="text-sm mt-1" style={{ color: '#6B7280' }}>
-                  We typically respond within 1–2 business days.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Mailing Address</h3>
-                <p style={{ color: '#6B7280' }}>
-                  Thrift Digest<br />
-                  8 The Green, Ste A<br />
-                  Dover, DE 19901
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>SMS Support</h3>
-                <p style={{ color: '#6B7280' }}>
-                  If you have received an SMS message from us and need assistance, reply <strong>HELP</strong> to any message or email us at{' '}
-                  <a href="mailto:support@thriftdigest.com" className="font-medium hover:underline" style={{ color: '#166534' }}>
-                    support@thriftdigest.com
-                  </a>.
-                  To stop receiving messages, reply <strong>STOP</strong> at any time.
-                </p>
-              </div>
-            </div>
+                  {submitting ? 'Sending...' : 'Send Message'}
+                </button>
+              </form>
+            )}
           </div>
 
-          {/* FAQ / Info Panel */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6" style={{ color: '#1F2937' }}>Frequently Asked Questions</h2>
-
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-base font-semibold mb-1" style={{ color: '#1F2937' }}>How do I opt out of SMS messages?</h3>
-                <p className="text-sm" style={{ color: '#6B7280' }}>
-                  Reply <strong>STOP</strong> to any SMS message you receive from us. You will be immediately removed from our messaging list. Message and data rates may apply.
-                </p>
+          {/* Contact Info + FAQ */}
+          <div className="space-y-8">
+            <div>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: '#1F2937' }}>Contact Information</h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Email</h3>
+                  <a href="mailto:support@thriftdigest.com" className="text-base font-medium hover:underline" style={{ color: '#166534' }}>
+                    support@thriftdigest.com
+                  </a>
+                  <p className="text-sm mt-1" style={{ color: '#6B7280' }}>Response within 1–2 business days</p>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Mailing Address</h3>
+                  <p style={{ color: '#6B7280' }}>
+                    Thrift Digest<br />
+                    8 The Green, Ste A<br />
+                    Dover, DE 19901
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>SMS Support</h3>
+                  <p className="text-sm" style={{ color: '#6B7280' }}>
+                    Reply <strong>STOP</strong> to opt out of messages. Reply <strong>HELP</strong> for assistance. Message and data rates may apply.
+                  </p>
+                </div>
               </div>
+            </div>
 
-              <div>
-                <h3 className="text-base font-semibold mb-1" style={{ color: '#1F2937' }}>How do I get help with SMS messages?</h3>
-                <p className="text-sm" style={{ color: '#6B7280' }}>
-                  Reply <strong>HELP</strong> to any SMS message or email us at support@thriftdigest.com.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-base font-semibold mb-1" style={{ color: '#1F2937' }}>Will my information be shared?</h3>
-                <p className="text-sm" style={{ color: '#6B7280' }}>
-                  No. We do not sell, rent, or share your mobile phone number or personal information with third parties for marketing purposes. See our{' '}
-                  <a href="/privacy" className="font-medium hover:underline" style={{ color: '#166534' }}>Privacy Policy</a> for full details.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-base font-semibold mb-1" style={{ color: '#1F2937' }}>What types of messages will I receive?</h3>
-                <p className="text-sm" style={{ color: '#6B7280' }}>
-                  Depending on your opt-in selections, you may receive transactional account notifications and/or customer care messages. You will only receive message types you explicitly consented to.
-                </p>
+            <div>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: '#1F2937' }}>FAQ</h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-sm font-semibold mb-1" style={{ color: '#1F2937' }}>How do I opt out of SMS?</h3>
+                  <p className="text-sm" style={{ color: '#6B7280' }}>Reply <strong>STOP</strong> to any message. You'll be removed immediately.</p>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold mb-1" style={{ color: '#1F2937' }}>Will my info be shared?</h3>
+                  <p className="text-sm" style={{ color: '#6B7280' }}>
+                    No. We do not sell or share your mobile number with third parties for marketing. See our{' '}
+                    <a href="/privacy" className="font-medium hover:underline" style={{ color: '#166534' }}>Privacy Policy</a>.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold mb-1" style={{ color: '#1F2937' }}>What messages will I receive?</h3>
+                  <p className="text-sm" style={{ color: '#6B7280' }}>Only the message types you explicitly opted into — account notifications and/or customer care.</p>
+                </div>
               </div>
             </div>
           </div>
